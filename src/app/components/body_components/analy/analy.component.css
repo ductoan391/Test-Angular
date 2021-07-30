@@ -136,3 +136,39 @@
     margin-bottom: 23%;
   }
 }
+
+@media (max-width: 1239px) {
+  .analy {
+    padding: 40px 0;
+  }
+
+  .text-header {
+    font-size: var(--big1-font-size);
+    line-height: 1.19;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .text-item {
+    max-width: 450px;
+    margin-bottom: 20px;
+  }
+
+  .col:nth-child(1) {
+    margin-right: 16%;
+  }
+
+  .item-title {
+    font-size: var(--common1-font-size);
+  }
+
+  .item-des {
+    font-size: var(--common-font-size);
+  }
+
+  .header3,
+  .header4 {
+    max-width: 420px;
+  }
+
+}

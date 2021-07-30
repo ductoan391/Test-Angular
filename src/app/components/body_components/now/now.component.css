@@ -95,3 +95,55 @@ i {
     font-weight: var(--fontNoto-bold);
   }
 }
+
+@media (max-width: 1239px) {
+
+  .now__wrap-text {
+    text-align: center;
+    padding: 30px 0;
+  }
+
+  .now__title {
+    color: var(--main-color);
+  }
+
+
+  .now__btn {
+    justify-content: center;
+    margin-top: 25px;
+    background-color: var(--main-color);
+    padding: 15px 25px;
+    border: none;
+    border-radius: 25px;
+
+    color: var(--white-color);
+    font-size: var(--common-font-size);
+  }
+
+  .now__btn:hover {
+    cursor: pointer;
+    background-color: var(--gray-color1);
+  }
+
+  .now-btn-wrap {
+    display: flex;
+    cursor: pointer;
+  }
+
+  i {
+    border: solid var(--white-color);
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+  .arrow {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+
+  .btn-span {
+    margin-right: 70px;
+    font-weight: var(--fontNoto-bold);
+  }
+}

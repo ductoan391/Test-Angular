@@ -6,10 +6,6 @@
   margin: 70px 340px 80px 340px;
 }
 
-.contract__description {
-  text-align: center;
-}
-
 .contract__title {
   text-align: center;
   line-height: 1.2;
@@ -20,6 +16,7 @@
   margin-top: 40px;
   line-height: 1.56;
   font-weight: var(--fontNoto-light);
+  text-align: center;
 }
 
 .contract__bottom-item {
@@ -97,4 +94,29 @@
     font-weight: var(--fontNoto-light);
   }
 
+}
+
+@media (max-width: 1239px) {
+  .contract {
+    padding-bottom: 50px;
+  }
+
+  .contract__header {
+    margin: 35px 250px 35px 250px;
+  }
+
+
+  .contract__title {
+    text-align: center;
+    line-height: 1.2;
+    font-size: var(--big1-font-size);
+  }
+
+  .text-des {
+    font-size: var(--mobile-text-size);
+  }
+
+  .contract__description {
+    margin-top: 25px;
+  }
 }

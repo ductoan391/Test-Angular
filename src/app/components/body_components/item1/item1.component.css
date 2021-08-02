@@ -144,7 +144,7 @@
 
 }
 
-@media (max-width: 1239px) {
+@media (min-width: 1045px) and (max-width: 1239px) {
   .item1__text span,
   .item2__text span {
     width:100%;

@@ -105,7 +105,7 @@ i {
   }
 }
 
-@media (max-width: 1239px) {
+@media (min-width: 1045px) and (max-width: 1239px) {
   .slide-box {
     position: absolute;
     top: 15%;

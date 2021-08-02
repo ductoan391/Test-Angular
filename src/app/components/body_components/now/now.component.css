@@ -96,7 +96,7 @@ i {
   }
 }
 
-@media (max-width: 1239px) {
+@media (min-width: 1045px) and (max-width: 1239px) {
 
   .now__wrap-text {
     text-align: center;

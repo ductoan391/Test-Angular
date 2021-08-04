@@ -13,7 +13,8 @@
 
 .header__logo {
   text-transform: uppercase;
-  margin-right: -30px;
+  margin-right: -15px;
+  margin-left: -15px;
 }
 
 .logo__span,
@@ -29,7 +30,8 @@
   display: flex;
   font-size: var(--common-font-size);
   line-height: 1.88;
-  margin-right: -45px;
+  margin-right: -32px;
+  margin-left: -38px;
 }
 
 .header__menu-item {

@@ -18,6 +18,7 @@
   --mobile-text-size : 14px;
   --common-font-size : 16px;
   --common1-font-size : 18px;
+  --text-logo : 18.5px;
   --big-font-size : 24px;
   --big1-font-size : 40px;
   --large-font-size : 50px;
@@ -26,7 +27,7 @@
 :root {
   --body-font : 'Noto Sans KR', sans-serif;
   --fontNoto-light : 300;
-  --fontNoto-medium : 500;
+  --fontNoto-medium : 600;
   --fontNoto-bold : bold;
 }
 

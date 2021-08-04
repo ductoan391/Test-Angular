@@ -23,7 +23,6 @@
   line-height: 1.88;
 }
 
-.quick-span2:hover,
 .quick-span3:hover {
   cursor: pointer;
   color: var(--gray-color4);

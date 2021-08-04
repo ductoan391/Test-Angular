@@ -61,8 +61,8 @@
   background-color: var(--gray-color5);
 }
 
-.protect-img {
-  z-index: 99;
+.protect__img img {
+  min-height: 480px;
 }
 
 .protect-title {
@@ -124,7 +124,10 @@
 @media (max-width: 736px) {
   .protect {
     display: none;
+  }
 
+  .protect__img img {
+    min-height: none;
   }
 
   .protect2 {
@@ -145,6 +148,8 @@
 
   .protect-img {
     z-index: 99;
+    width: 560px;
+    height: 480px;
   }
 
   .protect-title {
@@ -273,4 +278,5 @@
   .protect-btn {
     margin-top: 25px;
   }
+
 }

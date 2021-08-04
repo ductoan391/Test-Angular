@@ -12,15 +12,16 @@
 }
 
 .header__logo {
+  text-transform: uppercase;
 }
 
 .logo__span,
 .logo__p {
   font-family: var(--font-montserrat);
-  font-size: var(--common1-font-size);
+  font-size: var(--text-logo);
   font-weight: var(--fontMon-extra);
   color: var(--main-color);
-  line-height: 1.27;
+  line-height: 23.5px;
 }
 
 .header__menu {
@@ -124,7 +125,7 @@
   .header__menu-mobile::after {
     position: absolute;
     content: "";
-    top: 70%;
+    top: 60%;
     left: 10%;
     height: 2px;
     width: 80%;

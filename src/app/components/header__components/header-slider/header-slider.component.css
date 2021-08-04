@@ -4,25 +4,26 @@
 
 .slide-box {
   position: absolute;
-  top: 148px;
-  left: 220px;
+  top: 144px;
+  left: 336px;
 }
 
 .slide__title {
-  margin-bottom: 44px;
+  margin-bottom: 40px;
 }
 
 .slide__title {
   font-size: var(--large-font-size);
-  line-height: 1.3;
+  line-height: 65px;
   font-weight: var(--fontNoto-bold);
   color: var(--white-color);
 }
 
 .slide__description {
-  font-size: var(--common-font-size);
-  line-height: 1.71;
-  /* font-weight: var(--fontNoto-light); */
+  font-size: var(--mobile-text-size);
+  line-height: 24px;
+  font-weight: var(--fontNoto-light);
+  margin-bottom: 95px;
   color: var(--white-color);
 }
 
@@ -34,15 +35,16 @@
 
 .slide__bottom {
   display: flex;
-  margin-top: 95px;
   align-items: center;
+  margin-top: 12px;
 }
 
 .slide__bottom-title {
-  font-size: var(--common-font-size);
+  font-size: var(--mobile-text-size);
   font-weight: var(--fontNoto-medium);
+  line-height: 40px;
   color: var(--white-color);
-  margin-right: 20px;
+  margin-right: 19px;
 }
 
 .slide__bottom-btn {
